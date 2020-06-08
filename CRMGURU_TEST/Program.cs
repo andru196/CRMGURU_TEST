@@ -67,7 +67,7 @@ namespace CRMGURU_TEST
 				if (response.IsSuccessStatusCode)
 				{
 					country = JsonSerializer.Deserialize<List<Country>>(response.Content.ReadAsStringAsync().Result).FirstOrDefault();
-					ConsoleChat.WriteLine(country?.ToString());
+					ConsoleChat.WriteLine(Country.GetHeader(), '\n',country?.ToString());
 					var rk = ConsoleChat.MenuForUser("Нажмите '1' ещё раз, чтобы сохранить результат в БД");
 					if (rk == '1')
 					{
@@ -83,7 +83,7 @@ namespace CRMGURU_TEST
 					result = "Запрос не удачен";
 			}
 			else
-				result = country.ToString();
+				result = Country.GetHeader() + '\n' + country.ToString();
 			return result;
 		}
 

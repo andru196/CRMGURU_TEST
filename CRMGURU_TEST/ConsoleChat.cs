@@ -23,7 +23,10 @@ namespace CRMGURU_TEST
 
 		public static void WriteLine(params object[] str)
 		{
-			Console.WriteLine(str);
+			var stringBuilder = new StringBuilder();
+			foreach (var s in str)
+				stringBuilder.Append(s.ToString());
+			Console.WriteLine(stringBuilder.ToString());
 		}
 	}
 }
