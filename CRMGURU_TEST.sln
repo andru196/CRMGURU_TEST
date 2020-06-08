@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRMGURU_TEST", "CRMGURU_TEST\CRMGURU_TEST.csproj", "{8E381F7D-7382-4B66-9A6D-4E3A8592D5B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E381F7D-7382-4B66-9A6D-4E3A8592D5B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E381F7D-7382-4B66-9A6D-4E3A8592D5B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E381F7D-7382-4B66-9A6D-4E3A8592D5B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E381F7D-7382-4B66-9A6D-4E3A8592D5B3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D8DE1D00-D709-4FCC-BF40-64A8064233FA}
+	EndGlobalSection
+EndGlobal
